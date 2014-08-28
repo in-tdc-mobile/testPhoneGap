@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- alert('1');
+ // alert('1');
 var app = {
     // Application Constructor
     initialize: function() {
@@ -49,7 +49,7 @@ var app = {
     }
 };
 
-alert('2');
+// alert('2');
 function befooreajx() {
     alert('b4 1');
     $.support.cors=true;
@@ -120,7 +120,7 @@ function goText() {
         }
     });
 }
-alert('3');
+// alert('3');
 function goGoogle() {
     alert('call');
     befooreajx();
@@ -146,9 +146,9 @@ function goGoogle() {
     });
     alert('end');
 }
-alert('4');
+// alert('4');
 window.onerror = function(msg, url, linenumber) {
     alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
     return true;
 }
-alert('5');
+// alert('5');
