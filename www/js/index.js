@@ -82,6 +82,7 @@ function goAjax() {
 
 function goAjaxTest() {
     var url = "https://getVesselTracker.com/testajax.php";
+    jQuery.support.cors = true;
     $.ajax({
         url: url,
         datatype: 'text',
